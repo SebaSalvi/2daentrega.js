@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #task-list {
+            margin-top: 20px;
+        }
+        .task {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .task button {
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <input type="text" id="task-input" placeholder="Agrega Nueva Tarea">
+    <button id="add-task-btn">Agregar Tarea</button>
+    <input type="text" id="search-input" placeholder="Busca tus Tareas">
+    <div id="task-list"></div>
+
+    <script src="entrega2.js"></script>
+</body>
+</html>
